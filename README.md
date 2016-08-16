@@ -67,10 +67,18 @@ Next, you'll setup your local environment to run the tool.  It's run using Node
 
     ```
     git clone  https://github.com/alexa/interactive-adventure-game-tool.git
+    cd interactive-adventure-game-tool
     npm install
     ```
 
-4.	Launch:
+4.	Get client-side dependencies using JSPM:
+
+    ```
+    sudo npm install -g jspm
+    jspm install
+    ```
+  
+5.	Launch:
 
     ```
     npm start
